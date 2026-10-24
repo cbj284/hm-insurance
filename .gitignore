@@ -1,0 +1,39 @@
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+!.env.*.example
+deploy/milvus/user.yaml
+*.pem
+*.key
+
+# Dependencies and generated files
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+dist/
+build/
+*.egg-info/
+*.tsbuildinfo
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+logs/
+*.log
+
+# Local learning notebooks may contain credentials and execution output
+agent-service/notebooks/
+.ipynb_checkpoints/
+
+# Editor, operating system, and personal temporary files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*
+/feishu-auth-qr.png

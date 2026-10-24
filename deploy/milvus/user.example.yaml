@@ -1,0 +1,11 @@
+# Copy to user.yaml and set your local DashScope API key before starting Milvus.
+credential:
+  dashscope_apikey:
+    apikey: ''
+
+function:
+  rerank:
+    model:
+      providers:
+        ali:
+          credential: dashscope_apikey
